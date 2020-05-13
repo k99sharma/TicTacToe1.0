@@ -57,6 +57,10 @@ int gamemaster_program(int player1_name, int player2_name, int reset_flag){
             // checking turns
             turns = game_inspector(player1_turns, player2_turns, reset_flag);
 
+            // reset the value to 0 otherwise it will go in loop with value 1 and play_count++ stop working then play_value will always be 1 and goes into an infinite loop
+
+            reset_flag = 0;
+
             if(run == 0 || turns == 0)
                 break;
 
@@ -72,7 +76,10 @@ int gamemaster_program(int player1_name, int player2_name, int reset_flag){
             if(run == 0 || turns == 0)
                 break;
 
+
+
     }
+
 
 
    return 0;

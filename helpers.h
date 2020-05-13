@@ -29,6 +29,7 @@ int game_printing_function(void){
         for(column=0; column < 3; column++){
             printf("|");
             printf(" %c ",marker_postion[row][column]);
+            printf("|");
         }
         printf("\n");
     }

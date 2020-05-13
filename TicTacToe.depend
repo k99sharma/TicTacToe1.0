@@ -54,3 +54,22 @@
 
 1589372574 c:\users\dell\downloads\tictactoe-game-master (1)\tictactoe-game-master\gamealgorithim.h
 
+1589400349 source:c:\users\dante\desktop\tictactoe1.0\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<ctype.h>
+	"helpers.h"
+	"player_choices.h"
+	"gamescreens.h"
+	"gameAlgorithim.h"
+
+1589398206 c:\users\dante\desktop\tictactoe1.0\helpers.h
+
+1589382326 c:\users\dante\desktop\tictactoe1.0\player_choices.h
+
+1589399415 c:\users\dante\desktop\tictactoe1.0\gamescreens.h
+
+1589400349 c:\users\dante\desktop\tictactoe1.0\gamealgorithim.h
+

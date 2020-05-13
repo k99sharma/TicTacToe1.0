@@ -4,8 +4,8 @@ void front_screen(void)
 {
   //  char user_choice=0;
     gotoxy(40,7);
-    system("COLOR 60");
 
+    system("COLOR 60");
     printf("\t****************************");
     printf("\n\t\t\t\t\t\t*          WELCOME         *");
     printf("\n\t\t\t\t\t\t****************************");
@@ -112,7 +112,7 @@ int winning_screen(int player1_turns, int player2_turns, int sum){
 
         //condition of draw game
         if(player1_turns == 5 && player2_turns == 4){
-                printf("\n%d", sum);
+                //printf("\n%d", sum);
                 if(sum == 264 || sum == 237){
                     gotoxy(45, 14);
                     printf("  X  PLAYER 1 IS THE WINNER !!!");

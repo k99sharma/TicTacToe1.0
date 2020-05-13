@@ -13,6 +13,7 @@ int game_inspector(int player1_turns, int player2_turns, int reset_flag){
     if(reset_flag == 1){
         play_count = 1;
     }
+   // printf("Play count: %d", play_count);
 
     play_count++;
 
@@ -46,7 +47,7 @@ int game_algorithim(int player1_turns, int player2_turns){
 
             }
             if(row_sum == 264 || row_sum == 237){
-                winning_screen(player1_turns, player2_turns, 0);
+                winning_screen(player1_turns, player2_turns, row_sum);
                 return 0;
         }
     }
@@ -60,7 +61,7 @@ int game_algorithim(int player1_turns, int player2_turns){
 
             }
             if(column_sum == 264 || column_sum == 237){
-                winning_screen(player1_turns, player2_turns, 0);
+                winning_screen(player1_turns, player2_turns, column_sum);
                 return 0;
         }
     }
