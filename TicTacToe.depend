@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1589279274 source:c:\users\dante\desktop\tictactoe\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"helpers.h"
+	"player_choices.h"
+	"gamescreens.h"
+	"gameAlgorithim.h"
+
+1589264780 c:\users\dante\desktop\tictactoe\helpers.h
+
+1589272075 c:\users\dante\desktop\tictactoe\player_choices.h
+
+1589280006 c:\users\dante\desktop\tictactoe\gamescreens.h
+
+1589278369 c:\users\dante\desktop\tictactoe\gamealgorithim.h
+
+1589347220 source:c:\users\dante\downloads\tictactoe-master (1)\tictactoe-master\tictactoe\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<ctype.h>
+	"helpers.h"
+	"player_choices.h"
+	"gamescreens.h"
+	"gameAlgorithim.h"
+
+1589316054 c:\users\dante\downloads\tictactoe-master (1)\tictactoe-master\tictactoe\helpers.h
+
+1589316182 c:\users\dante\downloads\tictactoe-master (1)\tictactoe-master\tictactoe\player_choices.h
+
+1589348512 c:\users\dante\downloads\tictactoe-master (1)\tictactoe-master\tictactoe\gamescreens.h
+
+1589344008 c:\users\dante\downloads\tictactoe-master (1)\tictactoe-master\tictactoe\gamealgorithim.h
+
+1589316960 source:c:\users\dell\downloads\tictactoe-game-master (1)\tictactoe-game-master\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<ctype.h>
+	"helpers.h"
+	"player_choices.h"
+	"gamescreens.h"
+	"gameAlgorithim.h"
+
+1589374183 c:\users\dell\downloads\tictactoe-game-master (1)\tictactoe-game-master\helpers.h
+
+1589373553 c:\users\dell\downloads\tictactoe-game-master (1)\tictactoe-game-master\player_choices.h
+
+1589377591 c:\users\dell\downloads\tictactoe-game-master (1)\tictactoe-game-master\gamescreens.h
+
+1589372574 c:\users\dell\downloads\tictactoe-game-master (1)\tictactoe-game-master\gamealgorithim.h
+
