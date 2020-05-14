@@ -42,7 +42,7 @@ int game_algorithim(int player1_turns, int player2_turns){
     for(row=0; row < 3; row++){
         row_sum = 0;
         for(column=0; column < 3; column++){
-            row_sum += marker_postion[row][column];
+            row_sum += marker_position[row][column];
 
 
             }
@@ -56,7 +56,7 @@ int game_algorithim(int player1_turns, int player2_turns){
     for(column=0; column < 3; column++){
         column_sum = 0;
         for(row=0; row < 3; row++){
-            column_sum += marker_postion[row][column];
+            column_sum += marker_position[row][column];
 
 
             }
@@ -73,7 +73,7 @@ int game_algorithim(int player1_turns, int player2_turns){
     for(row=0; row < 3; row++){
         for(column=0; column < 3; column++){
             if(row == column){
-                diagonal_sum += marker_postion[row][column];
+                diagonal_sum += marker_position[row][column];
 
             }
             if(diagonal_sum == 264 || diagonal_sum == 237){
@@ -92,7 +92,7 @@ int game_algorithim(int player1_turns, int player2_turns){
     for(row=0; row < 3; row++){
         for(column=0; column < 3; column++){
             if((row+column) == 2){
-                diagonal_sum += marker_postion[row][column];
+                diagonal_sum += marker_position[row][column];
 
 
                 }
