@@ -1,2 +1,2 @@
 # TicTacToe1.0
-Game
+2 Player TicTacToe Game !
